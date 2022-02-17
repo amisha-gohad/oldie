@@ -1,26 +1,93 @@
-**PERSONAL DIARY MANAGEMENT C PROJECT**
+# Report
+# **Requirements**
+
+## Introduction
 
 In this C Projects source code series, we are creating simple Personal dairy. It is a c console-based application that works without using graphics and is one of the best c programming projects
 
-## REQUIREMENTS-
+## Variations
 
-#### High Level Requirements
+![Sample Snake And Ladder](https://user-images.githubusercontent.com/98866279/153548351-de917484-5586-4d10-abac-2cedf1c39ff0.jpg)
 
-• In personal diary management, personal data like name, mobile number, address, date of birth, living place, or any other data is stored.
+    
+  # SWOT Analysis
+  
+  ## Strengths
+  
+  * Keeps your thoughts organized and make them apprehensive.
+  * Stress Relieving .
+  * Allows yourself to self-reflect .
+  * Easy to design.
+  
+  ## Weakness
+  * Writing diarires can be time consuming.
+  * No password protection.
+ 
+ ## Opportunities
+ 
+* The game can be further developed to make it more fun and interesting.
+ 
+ ## Threats 
+ 
+* Due to development of many digital games, ancient board games like "snakes and ladder" face the threat of extinction.
+ 
+ # 4W's and 1H
+  ## Who
+  ---
+  This game can be played by people of all age groups.
+  ## What
+  ---
+  Digital implementation of an ancient game of snakes and ladders.
+  ## When
+  ---
+  At times of having fun with family or fiends, to reduce stress and pressure and in learning stages for children.
+  ## Where
+  ---
+  Any place with availability to keep the board and space to roll the dice.
+  ## How
+  ---
+  A player rolls the dice and increases his pawn's position on the board till any of the player wins.
+  # Detailed Requirements
+  ## High level requirements
+  |  ID|Description|Status|
+  |---|---|---|
+  | HR01 | User shall be able to store personal data like name, mobile number, address, date of birth | Implemented |
+  | HR02 | User shall be able to modify the data in the file | Implemented |
+  | HR03 | Build a .exe file to run it on any Windows machine | Implemented |
+  | HR04 | User shall be able to adding reminders for their meeting information, and other various tasks | Future | 
+  
+  ## Low level requirements
+  |  ID|Description|Status|
+  |---|---|---|
+  | LR01 | Enter data to store according to date | Implemented |
+  | LR02 | View records easily and ablity to update it | Impemented|
 
-• The user can even think of adding reminders for their meeting information, and other various tasks in this data.
+    | LR03 | Adding password encryption | Future|
+  | LR04 | Implementing an option to add reminder | Future|
+  
+  # Architecture
+# High Level 
+## Behavioural diagram 
+* ![Flow Chart drawio](https://user-images.githubusercontent.com/98866279/153229407-481a5246-1749-4f74-84cf-ad9ba73c3f21.png)
 
-• You don't have to enter the password for viewing the main menu or to add a record. You can edit the password within the application, unlike many other projects.
+## Structure diagram
+* ![Structural Diagram](https://user-images.githubusercontent.com/98866279/153231387-ea6ef964-1725-4a6f-a6c3-b1c3b6c29d96.png)
 
-• Here you can use the enter key as the password.
+# Low Level
 
-#### Low Level Requirements
+## Behavioural diagram
 
-• This Program takes input from users to store various kinds of information such as address, number, etc
+![SNL Position](https://user-images.githubusercontent.com/98866279/153552042-777d8abe-62b3-4aaf-9f95-ed16749a350c.jpg)
 
-• Validations
+## Structure diagram
 
-• Password System in each section.
+![Sample Snake And Ladder](https://user-images.githubusercontent.com/98866279/153552088-1cd9f7d2-14f3-4e11-9744-4f13c29dafdf.jpg)
+  
+  ## Test plan and test ouput
 
-• It displays the information we want.
 
+| Test ID | Description | Expected Input | Expected Output | Type of Test | Status |
+|---|---|---|---|---|---|
+| LTP01 | Test to check if dice output is always greater than 0 | random function | integer value greater than 0 | Technical | Pass|
+|LTP02 | Test to check if dice output is always less than or equal to 6 | random function | integer values less than or equal to 6 | Technical  | Pass |
+  
