@@ -12,7 +12,7 @@ void deleterecord( )
 
     char filename[10],REPEAT = 'Y' ,time[9];;
 
-    int choice,check;
+  
 
     printf("\n\n\t\t*************************\n");
 
@@ -24,6 +24,7 @@ void deleterecord( )
     while ( REPEAT == 'Y' )
 
     {
+          int choice;
 //CHOICE IS GIVENT TO THE USER
         printf("\n\n\tWHAT WOULD YOU LIKE TO DELETE.");
 
@@ -47,9 +48,9 @@ void deleterecord( )
 //ASKS USER TO ENTER THE DATE OF RECORD
                 printf("\n\tENTER THE DATE OF RECORD TO BE DELETED:\n IN THE FORMAT [yyyy-mm-dd]:");
 
-                fflush(stdin);
+                
 
-                gets(filename);
+                fgets(filename);
 
                 fp = fopen (filename, "wb" ) ;
 // IF THERE IS NO SUCH FILE
@@ -79,9 +80,9 @@ void deleterecord( )
 
                 printf("\n\tENTER THE DATE OF RECORD:[yyyy-mm-dd]:");
 
-                fflush(stdin);
+                
 
-                gets(filename);
+                fgets(filename);
 
                 fp = fopen (filename, "rb" ) ;
 
@@ -117,9 +118,9 @@ void deleterecord( )
 
                 printf("\n\tENTER THE TIME OF RECORD TO BE DELETED:[hh:mm]:");
 
-                fflush(stdin);
+                
 
-                gets(time);
+                fgets(time);
 
                 while(fread (&filee,sizeof(filee),1,fp)==1)
 
@@ -156,7 +157,7 @@ void deleterecord( )
 //TO NAVIGATE
         printf("\n\tDO YOU LIKE TO DELETE ANOTHER RECORD.(Y/N):");
 
-        fflush(stdin);
+        
 
         scanf("%c",&REPEAT);
 

@@ -26,15 +26,15 @@ void editrecord()
 //ASK FOR THE USER TO ENTER RECORD TO BE UPDATED
         printf("\n\tENTER THE DATE OF RECORD TO BE EDITED:[yyyy-mm-dd]: ");
 
-        fflush(stdin);
+        
 
 
-        gets(filename);
+        fgets(filename);
 
 
         printf("\n\tENTER TIME:[hh:mm]:");
 
-        gets(time);
+        fgets(time);
 
         fpointer = fopen ( filename, "rb+" ) ;
 
@@ -94,11 +94,11 @@ void editrecord()
 
                     printf("\n\tENTER YOUR CHOICE:");
 
-                    fflush(stdin);
+                    
 
                     scanf("%d",&choicee);
 
-                    fflush(stdin);
+                    
 //THEN UPDATE THE RECORD
                     switch(choicee)
 
@@ -109,7 +109,7 @@ void editrecord()
 
                         printf("\nNEW TIME:[hh:mm]:");
 
-                        gets(user_record.timee);
+                        fgets(user_record.timee);
 
                         break;
 
@@ -118,7 +118,7 @@ void editrecord()
 
                         printf("\nNEW MEETING PERSON:");
 
-                        gets(user_record.namee);
+                        fgets(user_record.namee);
 
                         break;
 
@@ -127,7 +127,7 @@ void editrecord()
 
                         printf("\nNEW MEETING PLACE:");
 
-                        gets(user_record.placee);
+                        fgets(user_record.placee);
 
                         break;
 
@@ -136,7 +136,7 @@ void editrecord()
 
                         printf("\nDURATION:");
 
-                        gets(user_record.durationn);
+                        fgets(user_record.durationn);
 
                         break;
 
@@ -145,7 +145,7 @@ void editrecord()
 
                         printf("\nNOTE:");
 
-                        gets(user_record.notee);
+                        fgets(user_record.notee);
 
                         break;
 
@@ -154,23 +154,23 @@ void editrecord()
 
                         printf("\nNEW TIME:[hh:mm]:");
 
-                        gets(user_record.timee);
+                        fgets(user_record.timee);
 
                         printf("\nNEW MEETING PERSON:");
 
-                        gets(user_record.namee);
+                        fgets(user_record.namee);
 
                         printf("\nNEW MEETING PLACE:");
 
-                        gets(user_record.placee);
+                        fgets(user_record.placee);
 
                         printf("\nDURATION:");
 
-                        gets(user_record.durationn);
+                        fgets(user_record.durationn);
 
                         printf("\nNOTE:");
 
-                        gets(user_record.notee);
+                        fgets(user_record.notee);
 
                         break;
 
