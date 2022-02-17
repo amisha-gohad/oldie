@@ -7,7 +7,11 @@ In this C Projects source code series, we are creating simple Personal dairy. It
 
 ## Variations
 
-![Sample Snake And Ladder](https://user-images.githubusercontent.com/98866279/153548351-de917484-5586-4d10-abac-2cedf1c39ff0.jpg)
+* ### Sample of My Diary user app
+
+![image](https://user-images.githubusercontent.com/98808752/154525172-97aab71e-f592-4d43-b6b1-778f04ad2e8e.png)
+
+
 
     
   # SWOT Analysis
@@ -68,26 +72,17 @@ In this C Projects source code series, we are creating simple Personal dairy. It
   # Architecture
 # High Level 
 ## Behavioural diagram 
-* ![Flow Chart drawio](https://user-images.githubusercontent.com/98866279/153229407-481a5246-1749-4f74-84cf-ad9ba73c3f21.png)
+* ![LL](https://user-images.githubusercontent.com/98808752/154526901-047acf60-14f6-41ac-80f1-cef273975e3d.png)
 
 ## Structure diagram
-* ![Structural Diagram](https://user-images.githubusercontent.com/98866279/153231387-ea6ef964-1725-4a6f-a6c3-b1c3b6c29d96.png)
+* ![Structural](https://user-images.githubusercontent.com/98808752/154526687-406cd0cc-7b0b-43e2-80fd-7bdbbb33ded5.jpg)
 
-# Low Level
-
-## Behavioural diagram
-
-![SNL Position](https://user-images.githubusercontent.com/98866279/153552042-777d8abe-62b3-4aaf-9f95-ed16749a350c.jpg)
-
-## Structure diagram
-
-![Sample Snake And Ladder](https://user-images.githubusercontent.com/98866279/153552088-1cd9f7d2-14f3-4e11-9744-4f13c29dafdf.jpg)
   
   ## Test plan and test ouput
 
 
 | Test ID | Description | Expected Input | Expected Output | Type of Test | Status |
 |---|---|---|---|---|---|
-| LTP01 | Test to check if dice output is always greater than 0 | random function | integer value greater than 0 | Technical | Pass|
-|LTP02 | Test to check if dice output is always less than or equal to 6 | random function | integer values less than or equal to 6 | Technical  | Pass |
+| LTP01 | Test to Write a record | Details of the user | a data file saved with all the  details | Technical | Pass|
+|LTP02 | Test to View a record | None | All the details off that particular record | Technical  | Pass |
   

@@ -1,4 +1,4 @@
-#include"deleterecord.h"
+#include"inc/deleterecord.h"
 #include"record.c"
 void deleterecord( )
 

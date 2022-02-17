@@ -1,4 +1,4 @@
-#include"addrecord.h"
+#include"inc/addrecord.h"
 #include"record.c"
 void addrecord( )
 
