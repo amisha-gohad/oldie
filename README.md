@@ -6,7 +6,7 @@ In this C Projects source code series, we are creating simple Personal dairy. It
 
 ## REQUIREMENTS-
 
-High Level Requirements
+#### High Level Requirements
 
 • In personal diary management, personal data like name, mobile number, address, date of birth, living place, or any other data is stored.
 
@@ -16,7 +16,7 @@ High Level Requirements
 
 • Here you can use the enter key as the password.
 
-Low Level Requirements
+#### Low Level Requirements
 
 • This Program takes input from users to store various kinds of information such as address, number, etc
 
