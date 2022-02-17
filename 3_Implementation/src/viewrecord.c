@@ -28,9 +28,8 @@ void viewrecord( )
 //ASKS YOUR TO ENTER THE DATE
         printf("\n\tENTER THE DATE OF RECORD TO BE VIEWED:[yyyy-mm-dd]:");
 
-        fflush(stdin);
 
-        gets(name);
+        fgets(name);
 
         fpointer = fopen ( name, "rb" ) ;
 
@@ -86,11 +85,11 @@ void viewrecord( )
 
         case 2:
 
-            fflush(stdin);
+
 
             printf("\nENTER TIME:[hh:mm]:");
 
-            gets(time);
+            fgets(time);
 
             while ( fread ( &user, sizeof ( user ), 1, fpointer ) == 1 )
 
@@ -127,7 +126,6 @@ void viewrecord( )
 //LOOP
         printf("\n\nWOULD YOU LIKE TO CONTINUE VIEWING...(Y/N):");
 
-        fflush(stdin);
 
         scanf("%c",&userchoice);
 
