@@ -7,5 +7,5 @@ In this C Projects source code series, we are creating simple Personal dairy. It
 
 ![Scores](https://api.codiga.io/project/31368/score/svg)
 
-!(https://api.codiga.io/project/31368/status/svg)
+![](https://api.codiga.io/project/31368/status/svg)
 
