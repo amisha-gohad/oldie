@@ -25,28 +25,28 @@ In this C Projects source code series, we are creating simple Personal dairy. It
  
  ## Opportunities
  
-* The game can be further developed to make it more fun and interesting.
+* We can make this a password protected diary.
  
  ## Threats 
  
-* Due to development of many digital games, ancient board games like "snakes and ladder" face the threat of extinction.
+* Sometimes people prefer hand-written diary.
  
  # 4W's and 1H
   ## Who
   ---
-  This game can be played by people of all age groups.
+This diary can be used by all age groups.
   ## What
   ---
-  Digital implementation of an ancient game of snakes and ladders.
+Record personal memories in this diary.
   ## When
   ---
-  At times of having fun with family or fiends, to reduce stress and pressure and in learning stages for children.
+ At any time when you feel like writing down a your experience .
   ## Where
   ---
-  Any place with availability to keep the board and space to roll the dice.
+  Any place wherever you want to record your experience.
   ## How
   ---
-  A player rolls the dice and increases his pawn's position on the board till any of the player wins.
+ User enters their personal data and stores their experience
   # Detailed Requirements
   ## High level requirements
   |  ID|Description|Status|
