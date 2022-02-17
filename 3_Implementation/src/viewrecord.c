@@ -1,4 +1,4 @@
-#include"viewrecord.h"
+#include"inc/viewrecord.h"
 #include "record.c"
 void viewrecord( )
 
@@ -29,7 +29,7 @@ void viewrecord( )
         printf("\n\tENTER THE DATE OF RECORD TO BE VIEWED:[yyyy-mm-dd]:");
 
 
-        fgets(name);
+        gets(name);
 
         fpointer = fopen ( name, "rb" ) ;
 
@@ -89,7 +89,7 @@ void viewrecord( )
 
             printf("\nENTER TIME:[hh:mm]:");
 
-            fgets(time);
+            gets(time);
 
             while ( fread ( &user, sizeof ( user ), 1, fpointer ) == 1 )
 

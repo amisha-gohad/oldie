@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory `c:/Users/imarp/Desktop/github/newfolder'
+gcc -std=c11 -Wall -o myapp  
+ 
+make.exe: Leaving directory `c:/Users/imarp/Desktop/github/newfolder'
+ 
