@@ -26,7 +26,7 @@ void addrecord( )
 
   
 
-    fgets(filename);
+    gets(filename);
 //save the file with the date as its name
     filePtr = fopen (filename, "ab+" ) ;
 //error handling to check null pointer
@@ -92,25 +92,25 @@ void addrecord( )
 
         
 //SAVE IT IN THE STRUCTURE
-            fgets(instance.namee);
+            gets(instance.namee);
 
         
 
             printf("\tENTER A PLACE:");
 
-            fgets(instance.placee);
+            gets(instance.placee);
 
         
 
             printf("\tENTER THE DURATION:");
 
-            fgets(instance.durationn);
+            gets(instance.durationn);
 
         
 
             printf("\tENTER A NOTE:");
 
-            fgets(instance.notee);
+            gets(instance.notee);
 
             fwrite ( &instance, sizeof ( instance ), 1, filePtr ) ;
 

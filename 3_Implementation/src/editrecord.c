@@ -1,4 +1,4 @@
-#include"editrecord.h"
+#include"inc/editrecord.h"
 #include"record.c"
 void editrecord()
 
@@ -29,12 +29,12 @@ void editrecord()
         
 
 
-        fgets(filename);
+        gets(filename);
 
 
         printf("\n\tENTER TIME:[hh:mm]:");
 
-        fgets(time);
+        gets(time);
 
         fpointer = fopen ( filename, "rb+" ) ;
 
@@ -109,7 +109,7 @@ void editrecord()
 
                         printf("\nNEW TIME:[hh:mm]:");
 
-                        fgets(user_record.timee);
+                        gets(user_record.timee);
 
                         break;
 
@@ -118,7 +118,7 @@ void editrecord()
 
                         printf("\nNEW MEETING PERSON:");
 
-                        fgets(user_record.namee);
+                        gets(user_record.namee);
 
                         break;
 
@@ -127,7 +127,7 @@ void editrecord()
 
                         printf("\nNEW MEETING PLACE:");
 
-                        fgets(user_record.placee);
+                        gets(user_record.placee);
 
                         break;
 
@@ -136,7 +136,7 @@ void editrecord()
 
                         printf("\nDURATION:");
 
-                        fgets(user_record.durationn);
+                        gets(user_record.durationn);
 
                         break;
 
@@ -145,7 +145,7 @@ void editrecord()
 
                         printf("\nNOTE:");
 
-                        fgets(user_record.notee);
+                        gets(user_record.notee);
 
                         break;
 
@@ -154,23 +154,23 @@ void editrecord()
 
                         printf("\nNEW TIME:[hh:mm]:");
 
-                        fgets(user_record.timee);
+                        gets(user_record.timee);
 
                         printf("\nNEW MEETING PERSON:");
 
-                        fgets(user_record.namee);
+                        gets(user_record.namee);
 
                         printf("\nNEW MEETING PLACE:");
 
-                        fgets(user_record.placee);
+                        gets(user_record.placee);
 
                         printf("\nDURATION:");
 
-                        fgets(user_record.durationn);
+                        gets(user_record.durationn);
 
                         printf("\nNOTE:");
 
-                        fgets(user_record.notee);
+                        gets(user_record.notee);
 
                         break;
 

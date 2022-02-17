@@ -50,7 +50,7 @@ void deleterecord( )
 
                 
 
-                fgets(filename);
+                gets(filename);
 
                 fp = fopen (filename, "wb" ) ;
 // IF THERE IS NO SUCH FILE
@@ -82,7 +82,7 @@ void deleterecord( )
 
                 
 
-                fgets(filename);
+                gets(filename);
 
                 fp = fopen (filename, "rb" ) ;
 
@@ -120,7 +120,7 @@ void deleterecord( )
 
                 
 
-                fgets(time);
+                gets(time);
 
                 while(fread (&filee,sizeof(filee),1,fp)==1)
 
