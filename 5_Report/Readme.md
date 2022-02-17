@@ -34,19 +34,20 @@ In this C Projects source code series, we are creating simple Personal dairy. It
  # 4W's and 1H
   ## Who
   ---
-This diary can be used by all age groups.
+  This diary can be used by all age groups.
   ## What
   ---
-Record personal memories in this diary.
+  Record personal memories in this diary.
   ## When
   ---
- At any time when you feel like writing down a your experience .
+  At any time when you feel like writing down a your experience .
   ## Where
   ---
   Any place wherever you want to record your experience.
   ## How
   ---
- User enters their personal data and stores their experience
+  User enters their personal data and stores their experience.
+
   # Detailed Requirements
   ## High level requirements
   |  ID|Description|Status|
@@ -61,8 +62,7 @@ Record personal memories in this diary.
   |---|---|---|
   | LR01 | Enter data to store according to date | Implemented |
   | LR02 | View records easily and ablity to update it | Impemented|
-
-    | LR03 | Adding password encryption | Future|
+  | LR03 | Adding password encryption | Future|
   | LR04 | Implementing an option to add reminder | Future|
   
   # Architecture
